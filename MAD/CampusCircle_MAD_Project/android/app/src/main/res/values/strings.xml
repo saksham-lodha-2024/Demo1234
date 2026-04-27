@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Campus Circle</string>
+    <string name="tagline">Buy · Rent · Exchange with verified BMU students</string>
+
+    <string name="welcome_back">Welcome Back</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="hostel_block">Hostel Block</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+
+    <string name="home">Home</string>
+    <string name="my_listings">My Listings</string>
+    <string name="requests">Requests</string>
+    <string name="profile">Profile</string>
+
+    <string name="post_item">Post New Item</string>
+    <string name="request_to_buy">Request to Buy</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="mark_completed">Mark Completed</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="logout">Logout</string>
+</resources>

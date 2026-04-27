@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cc_bg_soft">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- profile card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cc_text"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="—"/>
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cc_text_soft"
+                android:textSize="13sp"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tvHostel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cc_text_soft"
+                android:textSize="13sp"
+                android:text=""/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Reputation"
+            android:textColor="@color/cc_text"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Avg Rating" android:textColor="@color/cc_text_soft" android:textSize="12sp"/>
+                <TextView android:id="@+id/tvRating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/cc_primary" android:textSize="24sp" android:textStyle="bold" android:text="0.0"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reviews" android:textColor="@color/cc_text_soft" android:textSize="12sp"/>
+                <TextView android:id="@+id/tvReviews" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/cc_text" android:textSize="18sp" android:text="0"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Earnings" android:textColor="@color/cc_text_soft" android:textSize="12sp"/>
+                <TextView android:id="@+id/tvEarnings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/cc_text" android:textSize="18sp" android:text="Rs. 0"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Seller Dashboard"
+            android:textColor="@color/cc_text"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total" android:textColor="@color/cc_text_soft" android:textSize="11sp"/>
+                <TextView android:id="@+id/tvListings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/cc_text" android:textSize="18sp" android:textStyle="bold" android:text="0"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Active" android:textColor="@color/cc_text_soft" android:textSize="11sp"/>
+                <TextView android:id="@+id/tvActive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/cc_success" android:textSize="18sp" android:textStyle="bold" android:text="0"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sold" android:textColor="@color/cc_text_soft" android:textSize="11sp"/>
+                <TextView android:id="@+id/tvSold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/cc_text" android:textSize="18sp" android:textStyle="bold" android:text="0"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Completed" android:textColor="@color/cc_text_soft" android:textSize="11sp"/>
+                <TextView android:id="@+id/tvCompleted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/cc_primary" android:textSize="18sp" android:textStyle="bold" android:text="0"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogout"
+            style="@style/CcButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/cc_danger"
+            android:text="@string/logout"/>
+    </LinearLayout>
+</ScrollView>

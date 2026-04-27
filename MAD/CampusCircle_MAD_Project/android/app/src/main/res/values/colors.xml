@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Campus Circle palette (from Figma) -->
+    <color name="cc_primary">#2B5CE6</color>        <!-- main blue -->
+    <color name="cc_primary_dark">#1E44B5</color>
+    <color name="cc_accent">#7CA6F5</color>
+
+    <color name="cc_bg">#FFFFFF</color>
+    <color name="cc_bg_soft">#F3F5FA</color>
+    <color name="cc_card">#FFFFFF</color>
+    <color name="cc_divider">#E4E8EF</color>
+
+    <color name="cc_text">#111827</color>
+    <color name="cc_text_soft">#52607A</color>
+    <color name="cc_muted">#9CA3AF</color>
+
+    <color name="cc_success">#22C55E</color>
+    <color name="cc_warning">#F59E0B</color>
+    <color name="cc_danger">#EF4444</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
